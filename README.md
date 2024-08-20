@@ -58,7 +58,7 @@ The database schema consists of several key tables that capture the core busines
 - **Orders**: Captures order details including order date, ship date, and order status.
 - **Customers**: Contains customer demographic information.
 - **Products**: Stores product details such as category and sub-category.
-- **Regions**: Contains geographical information relevant to the orders.
+- **Shipping**: Contains Shipping information relevant to the orders.
 
 ### Key Tables and Attributes
 
@@ -80,10 +80,10 @@ The database schema consists of several key tables that capture the core busines
 - **Category**: Category to which the product belongs.
 - **SubCategory**: Sub-category of the product.
 
-#### 4. Regions
-- **RegionID**: Unique identifier for each region.
-- **RegionName**: Name of the region.
-- **Country**: Country within the region.
+#### 4. Shipping
+- **ShipID**: Unique identifier for each Ship.
+- **ShipDate**: date of  the Ship.
+- **AdressID**: unique ID of Each Address.
 
 ## Data Preprocessing
 
@@ -137,35 +137,8 @@ The preprocessed data is loaded into a relational database management system (RD
 ## Tools and Technologies
 
 - **Database**: MySQL, PostgreSQL, or any RDBMS of your choice.
-- **ETL Tools**: Apache Airflow, Talend, or custom Python scripts.
-- **Visualization**: Tableau, Power BI, or matplotlib for creating visual reports.
+- **Visualization**: Power BI, or matplotlib for creating visual reports.
 - **Programming Languages**: SQL, Python.
-
-## Installation and Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/global-super-store-data-modeling.git
-   cd global-super-store-data-modeling
-   ```
-
-2. **Install Dependencies** (if applicable):
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set Up the Database**:
-   - Run the SQL scripts in the `database/` directory to create the schema and tables.
-   - Load the data using the provided ETL scripts.
-
-4. **Configure Airflow** (if using Airflow):
-   - Set up your Airflow environment and configure the DAGs located in the `airflow_dags/` directory.
-
-## Usage
-
-- **Running ETL**: Execute the ETL scripts to load and transform the data.
-- **Querying the Database**: Use SQL queries to analyze the data and generate insights.
-- **Visualizing Data**: Use your preferred visualization tool to create reports and dashboards.
 
 ## Future Enhancements
 
