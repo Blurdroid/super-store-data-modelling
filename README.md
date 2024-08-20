@@ -44,7 +44,6 @@ The dataset used for this project is derived from the Global Super Store dataset
 ## Project Objectives
 
 - **Design a scalable and efficient data model** that can handle large volumes of retail data.
-- **Load data** into the database from various sources, ensuring data integrity.
 - **Perform data cleaning and transformation** to prepare the data for analysis.
 - **Validate the data** to ensure accuracy and consistency.
 - **Enable comprehensive queries and analytics** to generate business insights.
@@ -90,21 +89,6 @@ The database schema consists of several key tables that capture the core busines
 - **ShipID**: Unique identifier for each Ship.
 - **ShipDate**: date of  the Ship.
 - **AdressID**: unique ID of Each Address.
-
-## Data Preprocessing
-
-### Steps Involved:
-1. **Data Cleaning**: Handling missing values, removing duplicates, and correcting data types.
-2. **Data Transformation**: Normalizing and aggregating data as needed.
-3. **Data Integration**: Merging data from different sources into a unified format.
-
-## Data Loading
-
-The preprocessed data is loaded into a relational database management system (RDBMS). The loading process involves:
-
-- Creating tables and defining relationships.
-- Inserting data into the tables.
-- Indexing key columns to improve query performance.
 
 ## Data Validation and Quality Checks
 
