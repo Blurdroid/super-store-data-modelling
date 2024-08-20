@@ -136,18 +136,6 @@ The database schema consists of several key tables that capture the core busines
 - **Advanced Analytics**: Implement machine learning models to predict sales trends.
 - **Scalability**: Optimize the data model and infrastructure for large-scale data.
 
-## Contributing
-
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request. See `CONTRIBUTING.md` for more details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or suggestions, please contact [Your Name](mailto:youremail@example.com).
-
----
-
-This README template covers all essential aspects of your project and provides a solid foundation for anyone who wants to understand or contribute to your work. Feel free to adjust the content according to your specific project needs.
+For any questions or suggestions, please contact me
