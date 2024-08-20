@@ -1,8 +1,8 @@
 
 # super-store-data-modelling
 
-![alt text](![image](https://github.com/user-attachments/assets/0403ffdb-17d4-45f0-b6db-5c25c0fc7e8d)
-)
+![screenshot](![screenshot](screenshot.png))
+
 
 
 Creating a comprehensive README file on GitHub for a project like "Global Super Store Data Modeling" involves detailing the purpose, structure, and steps involved in the project. Below is a template you can use for your README file. You can customize it according to your specific project needs.
